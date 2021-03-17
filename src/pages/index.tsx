@@ -13,13 +13,20 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            Hi, We're Rogue <span className="fancy">AI.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <span className="handle">@alitarraf</span>
+          <h2>A place to talk about technology and business.</h2>
           <SocialList />
+          {/* <br /><br/>
+          <iframe className="iframe"
+          scrolling="no"
+          src="https://buttondown.email/alitarraf?as_embed=true">
+            </iframe> */}
         </div>
       </div>
+
+
       <style jsx>{`
         .container {
           display: flex;
@@ -39,13 +46,19 @@ export default function Index() {
           line-height: 1.25;
         }
         .fancy {
-          color: #15847d;
+          color: #ff3600;
         }
         .handle {
           display: inline-block;
           margin-top: 0.275em;
           color: #9b9b9b;
           letter-spacing: 0.05em;
+        }
+
+        .iframe {
+          border-width: 0px;
+          border-style: none;
+
         }
 
         @media (min-width: 769px) {

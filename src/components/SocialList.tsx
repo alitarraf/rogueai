@@ -1,11 +1,20 @@
 import React from "react";
 import Twitter from "../assets/twitter-alt.svg";
 import GitHub from "../assets/github-alt.svg";
+import Newsletter from "../assets/newsletter-alt.svg";
 import config from "../lib/config";
 
 export function SocialList({}) {
   return (
     <div>
+      <a
+        title="Newsletter"
+        href={`https://buttondown.email/${config.buttondown_account}`}
+        target="_blank"
+        rel="noopener"
+      >
+        <Newsletter width={24} height={24} fill={"#222"} />
+      </a>
       <a
         title="Twitter"
         href={`https://twitter.com/${config.twitter_account}`}
