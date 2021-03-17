@@ -2,11 +2,11 @@
   "base_url": "https://rogueai.co",
   "site_title": "Rogue AI",
   "site_description": "Tech and Business melting pot",
-  "site_keywords": [
-    "AI",
-    "Tech",
-    "workshops"
-  ],
+  // "site_keywords": [
+  //   "AI",
+  //   "Tech",
+  //   "workshops"
+  // ],
   "posts_per_page": 5,
   "twitter_account": "@alitarraf",
   "github_account": "alitarraf",
