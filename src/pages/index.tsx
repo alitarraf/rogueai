@@ -13,9 +13,9 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Rogue<span className="fancy">AI.</span>
+            Hi, We're Rogue <span className="fancy">AI.</span>
           </h1>
-          <span className="handle">By Ali Tarraf</span>
+          <span className="handle">By Ali Tarraf et al.</span>
           <h2>A place to talk technology and business.</h2>
           <SocialList />
         </div>
