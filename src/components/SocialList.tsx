@@ -1,6 +1,7 @@
 import React from "react";
 import Twitter from "../assets/twitter-alt.svg";
 import GitHub from "../assets/github-alt.svg";
+import Newsletter from "../assets/newsletter-alt.svg";
 import config from "../lib/config";
 
 export function SocialList({}) {
@@ -14,6 +15,16 @@ export function SocialList({}) {
       >
         <Twitter width={24} height={24} fill={"#222"} />
       </a>
+
+      <a
+        title="Newsletter"
+        href={`https://buttondown.email/alitarraf`}
+        target="_blank"
+        rel="noopener"
+      >
+        <Newsletter width={24} height={24} fill={"#222"} />
+      </a>
+
       <a
         title="GitHub"
         href={`https://github.com/${config.github_account}`}
