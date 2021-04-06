@@ -23,6 +23,16 @@ export function SocialList({}) {
       >
         <Twitter width={24} height={24} fill={"#222"} />
       </a>
+
+      <a
+        title="Newsletter"
+        href={`https://buttondown.email/alitarraf`}
+        target="_blank"
+        rel="noopener"
+      >
+        <Newsletter width={24} height={24} fill={"#222"} />
+      </a>
+
       <a
         title="GitHub"
         href={`https://github.com/${config.github_account}`}

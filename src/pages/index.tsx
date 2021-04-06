@@ -13,10 +13,10 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Rogue <span className="fancy">AI.</span>
+            Hi, We're Rogue<span className="fancy"> AI.</span>
           </h1>
-          <span className="handle">@alitarraf</span>
-          <h2>A place to talk about technology and business.</h2>
+          <span className="handle">By Ali Tarraf et al.</span>
+          <h2>A place to explore technology and business.</h2>
           <SocialList />
           {/* <br /><br/>
           <iframe className="iframe"
